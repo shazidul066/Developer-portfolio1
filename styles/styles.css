@@ -1,0 +1,149 @@
+/* Developer Portfolio Styles */
+
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* secondary styles */
+.secondary-bg{
+    background-color: rgb(255, 248, 243);
+}
+
+/* Nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800 ;
+    font-size:45px; 
+}
+.orange-color {
+    color: rgb(253, 110, 10);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul li{
+    list-style-type: none;
+    margin: 51px;
+}
+nav li a{
+    text-decoration: none;
+    
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+.btn-primary{
+    background-color: rgb(253, 110, 10);
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-weight:bold;
+    font-size: 85px ;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner-content{
+    max-width:585px ;
+    max-height: 262px;
+}
+
+
+
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24); 
+}
+.section-description{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+
+
+/* about section */
+.about-me{
+    border-radius: 10px;
+    padding: 130px 150px ;
+    text-align: center  ;
+    
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+     justify-content: space-around    ;
+     margin: bottom 2793px; ;
+}
+.item-description{
+    font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+/* Skill-Section style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    ;
+}
+.skill{
+padding:30px;
+box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+}
